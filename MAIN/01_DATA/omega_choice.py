@@ -6,9 +6,12 @@ omega_sectorial = {#"tech" : ['AAPL', 'MSFT', 'NVDA', 'AMD', 'ORCL', 'CRM', 'INT
          #"basics_cons" : ['KO', 'PG', 'PEP', 'WMT', 'COST', 'CL', 'MDLZ', 'KMB', 'WBA', 'GIS'],
          #"industry" : ['BA', 'CAT', 'DE', 'GE', 'HON', 'LMT', 'RTX', 'NOC', 'ITW', 'PH', 'MMM', 'EMR', 'CMI', 'FLS', 'TXT'],
          #"energy" : ['XOM', 'CVX', 'COP', 'SLB', 'PSX', 'EOG', 'OXY', 'VLO', 'HAL', 'MPC'],
-         "materials" : ['LIN', 'DD', 'NUE', 'FCX', 'APD'],
+         #"materials" : ['LIN', 'DD', 'NUE', 'FCX', 'APD'],
          "telecom" : ['T', 'VZ', 'TMUS', 'CMCSA', 'DISH'],
          "utilities" : ['NEE', 'DUK', 'SO', 'AEP', 'EXC'],
          "imo" : ['PLD', 'AMT', 'SPG', 'PSA', 'O']
 }
 omega = [item for sublist in omega_sectorial.values() for item in sublist]
+
+if __name__ == "__main__":
+    print(f"the ticker list is : {omega}")

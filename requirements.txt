@@ -15,6 +15,7 @@ duckdb==1.4.4
 executing==2.2.1
 fonttools==4.61.1
 fred==3.1
+fredapi==0.5.2
 frozendict==2.4.7
 idna==3.11
 ipykernel==7.2.0

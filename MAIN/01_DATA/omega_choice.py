@@ -7,9 +7,10 @@ omega_sectorial = {#"tech" : ['AAPL', 'MSFT', 'NVDA', 'AMD', 'ORCL', 'CRM', 'INT
          #"industry" : ['BA', 'CAT', 'DE', 'GE', 'HON', 'LMT', 'RTX', 'NOC', 'ITW', 'PH', 'MMM', 'EMR', 'CMI', 'FLS', 'TXT'],
          #"energy" : ['XOM', 'CVX', 'COP', 'SLB', 'PSX', 'EOG', 'OXY', 'VLO', 'HAL', 'MPC'],
          #"materials" : ['LIN', 'DD', 'NUE', 'FCX', 'APD'],
-         "telecom" : ['T', 'VZ', 'TMUS', 'CMCSA', 'DISH'],
-         "utilities" : ['NEE', 'DUK', 'SO', 'AEP', 'EXC'],
-         "imo" : ['PLD', 'AMT', 'SPG', 'PSA', 'O']
+         #"telecom" : ['T', 'VZ', 'TMUS', 'CMCSA', 'DISH'],
+         #"utilities" : ['NEE', 'DUK', 'SO', 'AEP', 'EXC'],
+         #"imo" : ['PLD', 'AMT', 'SPG', 'PSA', 'O'],
+          "test" : ['PLD']
 }
 omega = [item for sublist in omega_sectorial.values() for item in sublist]
 
